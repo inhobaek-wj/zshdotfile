@@ -7,7 +7,7 @@ fi
 # Setting history length see HISTSIZE and HISTFILESIZE
 HISTSIZE=10000
 HISTFILESIZE=20000
-HISTFILE=~/.zsh_history
+HISTFILE=~/.cache/zsh/.zsh_history
 
 # ========================= alias
 # alias ll="ls -lh"
@@ -55,4 +55,4 @@ bindkey '^e' edit-command-line
 source /Users/inho/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # ========================= command-line fuzzy finder.
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.config/zsh/.fzf.zsh ] && source ~/.config/zsh/.fzf.zsh
