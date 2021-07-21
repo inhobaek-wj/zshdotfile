@@ -58,4 +58,4 @@ source /Users/inho/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 [ -f ~/.config/zsh/.fzf.zsh ] && source ~/.config/zsh/.fzf.zsh
 
 # ========================= customize prompt
-export PS1="%n@%m %/ $ "
+export PS1="%/ $ "
