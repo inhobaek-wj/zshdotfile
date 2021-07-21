@@ -54,5 +54,8 @@ bindkey '^e' edit-command-line
 # ========================= Syntax highlighting
 source /Users/inho/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# ========================= command-line fuzzy finder.
+# ========================= command-line fuzzy finder
 [ -f ~/.config/zsh/.fzf.zsh ] && source ~/.config/zsh/.fzf.zsh
+
+# ========================= customize prompt
+export PS1="%n@%m %/ $ "
