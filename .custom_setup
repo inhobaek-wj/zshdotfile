@@ -1,10 +1,4 @@
-
-# Import zshrc for dev.
-if [ -f ~/.config/zsh/.zshrc_for_dev ]; then
-    . ~/.config/zsh/.zshrc_for_dev
-fi
-
-# Setting history length see HISTSIZE and HISTFILESIZE
+# ========================= setting history length see HISTSIZE and HISTFILESIZE
 HISTSIZE=10000
 HISTFILESIZE=20000
 HISTFILE=~/.cache/zsh/.zsh_history
@@ -50,12 +44,3 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
-
-# ========================= Syntax highlighting
-source /Users/inho/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-# ========================= command-line fuzzy finder
-[ -f ~/.config/zsh/.fzf.zsh ] && source ~/.config/zsh/.fzf.zsh
-
-# ========================= customize prompt
-export PS1="%/ $ "
