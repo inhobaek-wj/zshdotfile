@@ -1,5 +1,6 @@
 .fzf.bash
 .fzf.zsh
+.fzf/
 .oh-my-zsh/
 zsh-syntax-highlighting/
 .zcompdump-m1-imac-blue-5.8.1
