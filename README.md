@@ -20,4 +20,6 @@
 
 - put global `.gitconfig` file into `.config/git` as `config`
 
-- change shortcut for input source as option + space
+- change shortcut
+  - input source as option + space
+  - screenshot and recording options as left control + shift + command + 5
