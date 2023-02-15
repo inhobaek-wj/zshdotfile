@@ -20,3 +20,4 @@
 
 - put global `.gitconfig` file into `.config/git` as `config`
 
+- change shortcut for input source as option + space
