@@ -23,3 +23,7 @@
 - change shortcut
   - input source as option + space
   - screenshot and recording options as left control + shift + command + 5
+
+- create `.vimrc` for `.viminfo` file
+  - `set viminfo+=n~/.config/vim/.viminfo`
+
