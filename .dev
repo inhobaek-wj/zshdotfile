@@ -40,3 +40,7 @@ export PATH="$PATH:$HOME/.dev/flutter/bin"
 export PUB_CACHE=$HOME/.cache/.pub-cache
 export PATH="$PATH:$PUB_CACHE/bin"
 export FVM_HOME=$HOME/.dev/fvm
+
+# ========================= cargo
+export CARGO_HOME=$HOME/.dev/rust/.cargo
+export PATH="$PATH:$CARGO_HOME/bin"
