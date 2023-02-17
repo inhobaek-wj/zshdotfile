@@ -35,3 +35,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# ========================= flutter & dart
+export PATH="$PATH:$HOME/.dev/flutter/bin"
+export PUB_CACHE=$HOME/.cache/.pub-cache
+export PATH="$PATH:$PUB_CACHE/bin"
+export FVM_HOME=$HOME/.dev/fvm
