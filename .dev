@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.dev/.nvm"
 export npm_config_cache="$HOME/.cache/.npm"
 
 # ========================= go
-export GOPATH="$HOME/Workspace/go"
+export GOPATH="$HOME/Workspaces/go"
 
 # ========================= miniconda
 # >>> conda initialize >>>
