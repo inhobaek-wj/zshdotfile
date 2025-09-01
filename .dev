@@ -45,3 +45,4 @@ export FVM_HOME=$HOME/.dev/fvm
 # ========================= cargo
 export CARGO_HOME=$HOME/.dev/rust/.cargo
 export PATH="$PATH:$CARGO_HOME/bin"
+export LIBRARY_PATH=/opt/homebrew/lib
