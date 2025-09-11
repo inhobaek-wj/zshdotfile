@@ -47,3 +47,6 @@ export LIBRARY_PATH=/opt/homebrew/lib
 export JAVA_HOME=/opt/homebrew/opt/openjdk@17
 export PATH=$JAVA_HOME/bin:${PATH}
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
+
+# ========================= android
+export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk/25.1.8937393
