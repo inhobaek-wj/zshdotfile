@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.config/zsh/.oh-my-zsh"
@@ -73,7 +74,6 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -105,14 +105,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # My own.
+if [ -f ~/.config/zsh/.dev ]; then
+    . ~/.config/zsh/.dev
+fi
+
 if [ -f ~/.config/zsh/.custom_setup ]; then
     . ~/.config/zsh/.custom_setup
 fi
 
 if [ -f ~/.config/zsh/.plugin_config ]; then
     . ~/.config/zsh/.plugin_config
-fi
-
-if [ -f ~/.config/zsh/.dev ]; then
-    . ~/.config/zsh/.dev
 fi

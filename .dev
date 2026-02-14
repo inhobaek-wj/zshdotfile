@@ -1,5 +1,12 @@
 # ========================= brew for m1
 export PATH=${PATH}:/opt/homebrew/bin/
+export HOMEBREW_PREFIX="/opt/homebrew";
+export HOMEBREW_CELLAR="/opt/homebrew/Cellar";
+export HOMEBREW_REPOSITORY="/opt/homebrew";
+fpath[1,0]="/opt/homebrew/share/zsh/site-functions";
+eval "$(/usr/bin/env PATH_HELPER_ROOT="/opt/homebrew" /usr/libexec/path_helper -s)"
+[ -z "${MANPATH-}" ] || export MANPATH=":${MANPATH#:}";
+export INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
 # ========================= vi
 export VIMINIT="source $HOME/.config/vim/.vimrc"
@@ -50,3 +57,6 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
 
 # ========================= android
 export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk/25.1.8937393
+
+# ========================= ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
