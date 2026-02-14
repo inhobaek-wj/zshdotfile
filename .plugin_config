@@ -7,3 +7,4 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # ========================= command-line fuzzy finder
 # install with brew (brew install fzf)
 source <(fzf --zsh)
+bindkey -M viins '^R' fzf-history-widget
