@@ -57,6 +57,7 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
 
 # ========================= android
 export ANDROID_NDK_HOME=$HOME/Library/Android/sdk/ndk/25.1.8937393
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 
 # ========================= ruby
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
